@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "neuropol";
+  src: url(/font/neuropol.otf);
+}
+body {
+  font-family: "neuropol", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+main {
+background-image: url(/img/villecyber.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.chat {
+  border: 8px solid indigo;
+  box-shadow: 0px 8px 20px black;
+}
+section {
+  width: 75%;
+  text-align: justify;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  border-left: 50px solid rgb(219, 0, 0);
+  border-top: 15px solid rgb(204, 27, 27);
+  background: linear-gradient(to right, rgba(59, 59, 59, 0.651), rgba(19, 18, 18, 0.692));
+  box-shadow: -20px 0px 20px black;
+  color: wheat;
+}
+p {
+  width: 80%;
+  padding: 10px;
+}
+.profil {
+}
+.exp {
+}
+.skills {
+}
+ul {
+  list-style: none;
+  padding: 10px;
+}
+.formation {
+}
+@media screen and (min-width: 375px) {
+}
